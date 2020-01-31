@@ -1,0 +1,352 @@
+{
+    "getShipment": {
+        "Bookings": [{
+            "name": "ActiveLeaseLooseMulti",
+            "bookingIdentifier": "125-68330080",
+            "bookingStatus": "CONFIRMED",
+            "bookingType": "ACTIVE",
+            "currencyCode": {
+                "code": "GBP"
+            }
+            ,
+            "commodity": "Pharmaceuticals",
+            "freightforwarder": {
+                "freightforwarder-identifier": "1111111", "iataCode": "00000"
+            }
+            ,
+            "contacts": {
+                "consignee": {
+                    "personName": {
+                        "title": "Miss", "firstName": "Panalpina", "lastName": "Verma"
+                    }
+                    ,
+                    "emailAddresses": [ {
+                        "emailType": "Work", "email": "Vismita1@ba.com"
+                    }
+                    ,
+                    {
+                        "emailType": "Home", "firstName": "Vismita2@niit.com"
+                    }
+                    ],
+                    "address": {
+                        "addressLines": ["A Society", "in a Sector"], "postCode": "201308", "city": "Noida", "county": "India", "state": "Uttar Pradesh", "country": "India", "contactNumber": "9999999999"
+                    }
+                }
+                ,
+                "shipper": {
+                    "personName": {
+                        "title": "Miss", "firstName": "Bayer", "lastName": "Sharma"
+                    }
+                    ,
+                    "emailAddresses": [ {
+                        "emailType": "Work", "email": "Vismita1@ba.com"
+                    }
+                    ,
+                    {
+                        "emailType": "Home", "firstName": "Vismita2@niit.com"
+                    }
+                    ],
+                    "address": {
+                        "addressLines": ["A Society", "in a Sector"], "postCode": "201308", "city": "Noida", "county": "India", "state": "Uttar Pradesh", "country": "India", "contactNumber": "9999999999"
+                    }
+                }
+                ,
+                "freightForwarderBookingContact": {
+                    "personName": {
+                        "title": "Miss", "firstName": "Vismita", "lastName": "Pavdi"
+                    }
+                    ,
+                    "emailAddresses": [ {
+                        "emailType": "Work", "email": "Vismita1@ba.com"
+                    }
+                    ,
+                    {
+                        "emailType": "Home", "firstName": "Vismita2@niit.com"
+                    }
+                    ],
+                    "address": {
+                        "addressLines": ["A Society", "in a Sector"], "postCode": "201308", "city": "Noida", "county": "India", "state": "Uttar Pradesh", "country": "India", "contactNumber": "9999999999"
+                    }
+                }
+                ,
+                "freightForwarderCompanyContact": {
+                    "personName": {
+                        "title": "Miss", "firstName": "Vismita", "lastName": "Pavdi"
+                    }
+                    ,
+                    "emailAddresses": [ {
+                        "emailType": "Work", "email": "Vismita1@ba.com"
+                    }
+                    ,
+                    {
+                        "emailType": "Home", "firstName": "Vismita2@niit.com"
+                    }
+                    ],
+                    "address": {
+                        "addressLines": ["A Society", "in a Sector"], "postCode": "201308", "city": "Noida", "county": "India", "state": "Uttar Pradesh", "country": "India", "contactNumber": "9999999999"
+                    }
+                }
+                ,
+                "emergencyContact": {
+                    "personName": {
+                        "title": "Miss", "firstName": "Vismita", "lastName": "Pavdi"
+                    }
+                    ,
+                    "emailAddresses": [ {
+                        "emailType": "Work", "email": "Vismita1@ba.com"
+                    }
+                    ,
+                    {
+                        "emailType": "Home", "firstName": "Vismita2@niit.com"
+                    }
+                    ],
+                    "address": {
+                        "addressLines": ["A Society", "in a Sector"], "postCode": "201308", "city": "Noida", "county": "India", "state": "Uttar Pradesh", "country": "India", "contactNumber": "9999999999"
+                    }
+                }
+            }
+            ,
+            "itinerary": [ {
+                "flightSegments": [ {
+                    "origin": {
+                        "identifier": "LHR",
+                        "terminal": "T1",
+                        "gate": {
+                            "number": 4
+                        }
+                    }
+                    ,
+                    "destination": {
+                        "identifier": "BOM",
+                        "terminal": "T2",
+                        "gate": {
+                            "number": 6
+                        }
+                    }
+                    ,
+                    "scheduledDepartureLocalDatetime": "2019-12-25T09:30:00.000Z",
+                    "scheduledArrivalLocalDatetime": "2019-12-26T08:35:00.000Z",
+                    "carriers": [ {
+                        "code": "BA", "type": "OPERATING", "flightNumber": "BA123", "operationalSuffix": "suffix"
+                    }
+                    ],
+                    "flightLegs": [ {
+                        "origin": {
+                            "identifier": "LHR",
+                            "terminal": "T1",
+                            "gate": {
+                                "number": 4
+                            }
+                        }
+                        ,
+                        "destination": {
+                            "identifier": "DXB",
+                            "terminal": "T5",
+                            "gate": {
+                                "number": 1
+                            }
+                        }
+                        ,
+                        "scheduledDepartureLocalDatetime": "2019-12-25T09:30:00.000Z",
+                        "scheduledArrivalLocalDatetime": "2019-12-25T08:35:00.000Z"
+                    }
+                    ,
+                    {
+                        "origin": {
+                            "identifier": "DXB",
+                            "terminal": "T5",
+                            "gate": {
+                                "number": 4
+                            }
+                        }
+                        ,
+                        "destination": {
+                            "identifier": "BOM",
+                            "terminal": "T2",
+                            "gate": {
+                                "number": 6
+                            }
+                        }
+                        ,
+                        "scheduledDepartureLocalDatetime": "2019-12-26T09:30:00.000Z",
+                        "scheduledArrivalLocalDatetime": "2019-12-26T08:35:00.000Z"
+                    }
+                    ]
+                },
+				{
+                    "origin": {
+                        "identifier": "BOM",
+                        "terminal": "T2",
+                        "gate": {
+                            "number": 6
+                        }
+                    }
+                    ,
+                    "destination": {
+                        "identifier": "SYD",
+                        "terminal": "T1",
+                        "gate": {
+                            "number": 13
+                        }
+                    }
+                    ,
+                    "scheduledDepartureLocalDatetime": "2019-12-27T09:30:00.000Z",
+                    "scheduledArrivalLocalDatetime": "2019-12-28T08:35:00.000Z",
+                    "carriers": [ {
+                        "code": "BA", "type": "OPERATING", "flightNumber": "BA345", "operationalSuffix": "suffix"
+                    }
+                    ],
+                    "flightLegs": [ {
+                        "origin": {
+                            "identifier": "BOM",
+                            "terminal": "T2",
+                            "gate": {
+                                "number": 4
+                            }
+                        }
+                        ,
+                        "destination": {
+                            "identifier": "SYD",
+                            "terminal": "T5",
+                            "gate": {
+                                "number": 11
+                            }
+                        }
+                        ,
+                        "scheduledDepartureLocalDatetime": "2019-12-27T09:30:00.000Z",
+                        "scheduledArrivalLocalDatetime": "2019-12-28T08:35:00.000Z"
+                    }
+                    ]
+                },
+				{
+                    "origin": {
+                        "identifier": "SYD",
+                        "terminal": "T2",
+                        "gate": {
+                            "number": 6
+                        }
+                    }
+                    ,
+                    "destination": {
+                        "identifier": "CPT",
+                        "terminal": "T1",
+                        "gate": {
+                            "number": 13
+                        }
+                    }
+                    ,
+                    "scheduledDepartureLocalDatetime": "2019-12-29T09:30:00.000Z",
+                    "scheduledArrivalLocalDatetime": "2019-12-30T08:35:00.000Z",
+                    "carriers": [ {
+                        "code": "BA", "type": "OPERATING", "flightNumber": "BA678", "operationalSuffix": "suffix"
+                    }
+                    ],
+                    "flightLegs": [ {
+                        "origin": {
+                            "identifier": "SYD",
+                            "terminal": "T2",
+                            "gate": {
+                                "number": 4
+                            }
+                        }
+                        ,
+                        "destination": {
+                            "identifier": "CPT",
+                            "terminal": "T5",
+                            "gate": {
+                                "number": 11
+                            }
+                        }
+                        ,
+                        "scheduledDepartureLocalDatetime": "2019-12-29T09:30:00.000Z",
+                        "scheduledArrivalLocalDatetime": "2019-12-30T08:35:00.000Z"
+                    }
+                    ]
+                }
+                ]
+            }
+            ],
+            "units": [ 
+			{
+                "loadType": "LOOSE",
+				"totalPieces": 3,
+                "weight": {
+                    "value": 23.1, "unit": "LB"
+                }
+                ,
+                "dimension": {
+                    "length": 2, "width": 3, "height": 1, "unit": "INCH"
+                }
+            }
+            ,
+            {
+                "loadType": "LOOSE",
+				"totalPieces": 2,
+                "weight": {
+                    "value": 78.1, "unit": "LB"
+                }
+                ,
+                "dimension": {
+                    "length": 5, "width": 2, "height": 7, "unit": "INCH"
+                }
+            }
+            ],
+            "tmldDetails": {
+                "isIagLeaseRequired": true,
+                "cargoRefNumber": "Ref12345",
+                "leaseStartDate": {
+                    "startOfLease": "2019-12-25T09:30:00.000Z", "lengthOfLease": 2
+                }
+                ,
+                "vendorName": {
+                    "personName": {
+                        "title": "Mrs", "firstName": "Meenakshi", "lastName": "Tyagi"
+                    }
+                    ,
+                    "emailAddresses": [ {
+                        "emailType": "Work", "email": "Work@ba.com"
+                    }
+                    ],
+                    "address": {
+                        "addressLines": ["A Society", "in a Sector"], "postCode": "201308", "city": "Noida", "county": "India", "state": "Uttar Pradesh", "country": "India", "contactNumber": "9999999999"
+                    }
+                    ,
+                    "temperatureRanges": [ {
+                        "type": "PRODUCT", "temperature": "25C"
+                    }
+                    ],
+                    "packageType": "ONEWAY",
+                    "isDamageWaiver": true,
+                    "isDeliveryRequired": true,
+                    "addresses": {
+                        "deliveryAddress": {
+                            "addressLines": ["A Society", "in a Sector"], "postCode": "201308", "city": "Noida", "county": "India", "state": "Uttar Pradesh", "country": "India", "contactNumber": "9999999999"
+                        }
+                        ,
+                        "collectionAddress": {
+                            "addressLines": ["A Society", "in a Sector"], "postCode": "201308", "city": "Noida", "county": "India", "state": "Uttar Pradesh", "country": "India", "contactNumber": "9999999999"
+                        }
+                    }
+                    ,
+                    "packagingTypeUsed": "paper",
+                    "additionalRequirements": "Lorem Ipsum",
+                    "commodityDescription": "Lol"
+                }
+            }
+            ,
+            "leases": [ {
+                "lease-identifier": "A111",
+                "status": "STAT",
+                "_links": [ {
+                    "rel": "abc", "href": "https://google.com"
+                }
+                ]
+            }
+            ],
+            "_links": [ {
+                "rel": "abc", "href": "https://google.com"
+            }
+            ]
+        }]
+    }
+}
